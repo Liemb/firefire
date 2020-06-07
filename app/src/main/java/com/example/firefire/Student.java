@@ -1,5 +1,8 @@
 package com.example.firefire;
 
+/**
+ * new class students
+ */
 public class Student {
 
     public String name;
@@ -13,6 +16,17 @@ public class Student {
 
     public Student() {}
 
+    /**
+     * student class builder
+     * @param name
+     * @param adress
+     * @param num
+     * @param hnum
+     * @param dnum
+     * @param dname
+     * @param mnum
+     * @param mname
+     */
     public Student (String name, String adress, String num, String hnum, String dnum, String dname, String mnum,String mname) {
         this.name=name;
         this.adress=adress;

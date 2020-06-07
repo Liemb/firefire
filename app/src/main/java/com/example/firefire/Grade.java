@@ -1,5 +1,8 @@
 package com.example.firefire;
 
+/**
+ * new class grades
+ */
 public class Grade {
     public String subject;
     public String grade;
@@ -8,12 +11,25 @@ public class Grade {
 
     public Grade(){}
 
+    /**
+     * grades class builder
+     * @param subject
+     * @param gname
+     * @param grade
+     * @param quarter
+     */
     public Grade(String subject, String gname, String grade, String quarter) {
         this.subject = subject;
         this.gname = gname;
         this.grade= grade;
         this.quarter=quarter;
     }
+
+    /**
+     * grades get and set actions
+     * @return
+     */
+
 
     public String getSubject() {
         return subject;
