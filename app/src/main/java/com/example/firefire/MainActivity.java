@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     /**
-     * inflating te menu
+     * inflating the menu
      * @param menu
      * @return
      */
