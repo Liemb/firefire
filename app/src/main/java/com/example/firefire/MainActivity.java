@@ -89,10 +89,20 @@ public class MainActivity extends AppCompatActivity  {
     public boolean onOptionsItemSelected (MenuItem item){
         String st = item.getTitle().toString();
 
+        if (st.equals("info")){
+            Intent si = new Intent(this, Info.class);
+            startActivity(si);
+        }
+
+        if (st.equals("sort")) {
+            Intent si = new Intent(this, sort.class);
+            startActivity(si);
+        }
+
+        if (st.equals("creds")){
+            Intent si = new Intent(this, credits.class);
+            startActivity(si);
         }
         return true;
     }
-
-}
-
 }

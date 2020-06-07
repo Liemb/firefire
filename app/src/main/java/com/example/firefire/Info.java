@@ -116,7 +116,7 @@ public class Info extends AppCompatActivity implements AdapterView.OnItemClickLi
             final String ststuN=stuValues.get(pos).getName();
             sttemp="Name: "+stuValues.get(pos).getName()+"\n";
             sttemp+="Adress: "+String.valueOf(stuValues.get(pos).getAdress())+" ";
-            sttemp+="Phone: "+String.valueOf(stuValues.get(pos).getNum())+" ";
+            sttemp+="Num: "+String.valueOf(stuValues.get(pos).getNum())+" ";
             sttemp+="Fnum: "+String.valueOf(stuValues.get(pos).getDname())+" ";
             sttemp+="Dnum: "+String.valueOf(stuValues.get(pos).getDnum())+" ";
             sttemp+="Mname: "+String.valueOf(stuValues.get(pos).getMname())+" ";

@@ -43,7 +43,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="by name" />
+                android:text="by name"
+                android:onClick="byname"/>
 
             <Space
                 android:layout_width="0dp"
@@ -54,7 +55,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="by " />
+                android:text="by address"
+                android:onClick="byadd"/>
         </LinearLayout>
 
 
@@ -91,7 +93,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="by grade" />
+                android:text="by grade"
+                android:onClick="bygrade"/>
 
             <Space
                 android:layout_width="0dp"
@@ -102,7 +105,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="by quarter" />
+                android:text="by subject"
+                android:onClick="bysub"/>
         </LinearLayout>
 
         <ListView
