@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(si);
         }
 
-        if (st.equals("creds")){
+        if (st.equals("credits")){
             Intent si = new Intent(this, credits.class);
             startActivity(si);
         }

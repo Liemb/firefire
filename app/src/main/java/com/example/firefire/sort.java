@@ -211,12 +211,12 @@ public class sort extends AppCompatActivity implements AdapterView.OnItemClickLi
             final String ststuN = stuValues.get(pos).getName();
             sttemp = "Name: " + stuValues.get(pos).getName() + "\n";
             sttemp += "Adress: " + String.valueOf(stuValues.get(pos).getAdress()) + " ";
-            sttemp += "Num: " + String.valueOf(stuValues.get(pos).getNum()) + " ";
-            sttemp += "DName: " + String.valueOf(stuValues.get(pos).getDname()) + " ";
-            sttemp += "Dnum: " + String.valueOf(stuValues.get(pos).getDnum()) + " ";
-            sttemp += "Mname: " + String.valueOf(stuValues.get(pos).getMname()) + " ";
-            sttemp += "Mnum: " + String.valueOf(stuValues.get(pos).getMnum()) + " ";
-            sttemp += "Hnum: " + String.valueOf(stuValues.get(pos).getHnum()) + " ";
+            sttemp += "Number: " + String.valueOf(stuValues.get(pos).getNum()) + " ";
+            sttemp += "Dad's Name: " + String.valueOf(stuValues.get(pos).getDname()) + " ";
+            sttemp += "Dad's num: " + String.valueOf(stuValues.get(pos).getDnum()) + " ";
+            sttemp += "Mom's name: " + String.valueOf(stuValues.get(pos).getMname()) + " ";
+            sttemp += "Mom's num: " + String.valueOf(stuValues.get(pos).getMnum()) + " ";
+            sttemp += "Home num: " + String.valueOf(stuValues.get(pos).getHnum()) + " ";
             adb.setMessage(sttemp);
             adb.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
                 @Override
@@ -259,7 +259,7 @@ public class sort extends AppCompatActivity implements AdapterView.OnItemClickLi
             startActivity(si);
         }
 
-        if (st.equals("creds")){
+        if (st.equals("credits")){
             Intent si = new Intent(this, credits.class);
             startActivity(si);
         }
